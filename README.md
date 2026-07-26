@@ -1,6 +1,6 @@
 # Online Shopping System (Java)
 
-Console-based Online Shopping System banaya gaya hai, jisme har class apni alag file mein hai (proper multi-file Java project).
+A console-based Online Shopping System built in Java, following a well-structured multi-file project architecture where each class is organized into its own dedicated file for better modularity, maintainability, and code organization.
 
 ## Project Structure
 ```
@@ -12,7 +12,7 @@ src/
 ```
 
 ## Data Structures Used
-| Concept | Where | Kyun |
+| Concept | Used In | Purpose |
 |---|---|---|
 | HashMap | users, products, cart | O(1) fast lookup by ID |
 | Queue (LinkedList) | pendingOrders | FIFO order processing |
@@ -25,7 +25,7 @@ javac *.java
 java Main
 ```
 
-Login karne ke liye (demo user already registered hai):
+Demo Login Credentials (Pre-Registered User):
 ```
 Email: demo@email.com
 Password: 123
